@@ -1,0 +1,5 @@
+org\pokemon\webapp\servlet\PokemonServlet.class
+org\pokemon\webapp\util\JPAUtil.class
+org\pokemon\webapp\model\Pokemon.class
+org\pokemon\webapp\service\PokemonService.class
+org\pokemon\webapp\service\IPokemonService.class

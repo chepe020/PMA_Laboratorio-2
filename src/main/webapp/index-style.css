@@ -1,0 +1,60 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22/07/2024, 00:11:50
+    Author     : Chepe
+*/
+
+.mensaje-bienvenida {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+.mensaje-bienvenida .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.footer {
+    background-color: #212529;
+    color: white;
+    padding: 0.45%;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.740em;
+}
+.footer .integrantes,
+.footer .address {
+    text-align: center;
+    margin: 5px 0;
+}
+.footer .logo {
+    text-align: center;
+    margin: 5px 0;
+}
+.footer .logo img {
+    width: 40px;
+}
+
+.image-container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
